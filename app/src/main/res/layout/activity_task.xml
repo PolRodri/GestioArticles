@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_task"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".taskActivity">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="7dp">
+
+        <TextView
+            android:text="Codi"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="text"
+            android:ems="10"
+            android:id="@+id/edtCodi"
+            />
+
+        <TextView
+            android:text="Descripció"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="text"
+            android:ems="10"
+            android:id="@+id/edtDescripcio"
+            />
+
+        <TextView
+            android:text="Familia"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="text"
+            android:ems="10"
+            android:id="@+id/edtFamilia"
+            />
+
+        <Spinner
+            android:id="@+id/spinnerFamilia"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:spinnerMode="dropdown" />
+
+        <TextView
+            android:text="Preu"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="text"
+            android:ems="10"
+            android:id="@+id/edtPreu"
+            />
+
+        <TextView
+            android:id="@+id/estocView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Estoc" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="text"
+            android:ems="10"
+            android:id="@+id/edtEstoc"
+            />
+
+        <Button
+            android:text="ACCEPTAR"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/btnOk"
+            android:paddingTop="10dp"
+            android:layout_marginTop="30dp"/>
+
+        <Button
+            android:text="CANCELAR"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/btnCancelar" />
+
+        <Button
+            android:text="ELIMINAR"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/btnDelete" />
+    </LinearLayout>
+</RelativeLayout>
+

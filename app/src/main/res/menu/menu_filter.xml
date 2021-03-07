@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item android:title="Mostrar tots els articles"
+    android:id="@+id/mnuTot" />
+    <item android:title="Mostrar articles amb descripció"
+        android:id="@+id/mnuDescripcio" />
+    <item android:title="Mostrar articles sense estoc"
+        android:id="@+id/mnuEstoc" />
+
+    <item
+        android:id="@+id/btnLocation"
+        android:icon="@android:drawable/ic_menu_mylocation"
+        android:title="Location"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/btnMovimentPerDia"
+        android:icon="@android:drawable/ic_menu_today"
+        android:title="Afegir"
+        app:showAsAction="ifRoom" />
+
+
+</menu>
